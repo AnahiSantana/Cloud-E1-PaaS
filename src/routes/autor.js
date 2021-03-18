@@ -2,7 +2,8 @@ const router = require('express').Router()
 
 router.get('/', (req, res) => {
   res.send({
-    "status": "si estoy vivo :)"
+    "alumna": "AASH :3",
+    "servicio" : "Cloud Foundry en IBM Cloud"
   });
 });
 

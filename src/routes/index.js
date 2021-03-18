@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
-const helloRoute = require('./vivo');
+const autorRoute = require('./autor');
 
-router.use('/estoyvivo', helloRoute);
+router.use('/autor', autorRoute);
 
 module.exports = router;
