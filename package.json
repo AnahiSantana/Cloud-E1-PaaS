@@ -1,0 +1,32 @@
+{
+  "name": "docker-microservice",
+  "version": "1.0.0",
+  "description": "microservice with docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "start-watch": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "microservice",
+    "watson",
+    "Tone analyser",
+    "nodejs",
+    "express"
+  ],
+  "author": "AASH",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnahiSantana/Cloud-E1-PaaS.git"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
