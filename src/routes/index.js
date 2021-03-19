@@ -18,6 +18,10 @@ const toneAnalyzer = new ToneAnalyzerV3({
 router.post('/',async (req,res)=>{
 
     console.log(req.body);
+
+    if(!req.body.text){
+      return res.send({"Error":"Missing text tag"})
+    }
     const toneParams = {
         toneInput: { 'text': req.body.text },
         content_type: 'application/json',
