@@ -25,7 +25,7 @@ router.post('/',async (req,res)=>{
 
         toneAnalyzer.tone(toneParams)
         .then(toneAnalysis => {
-        res.send(JSON.stringify(toneAnalysis, null, 2));
+        res.send(JSON.stringify(toneAnalysis.result.document_tone, null, 2));
         })
         .catch(err => {
         res.send('error:', err);
